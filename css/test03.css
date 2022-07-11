@@ -1,0 +1,16 @@
+#header .topBanner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .topBanner h1 {
+    line-height: 100px;
+}
+
+#header .topBanner .gnb ul {
+    display: flex;
+    gap: 20px;
+    line-height: 100px;
+}
+
