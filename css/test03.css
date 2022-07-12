@@ -1,16 +1,108 @@
-#header .topBanner {
+.scroll .box {
+    position: fixed;
+    inset: 90% auto auto 95%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.box .txtbox {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid #666;
+}
+
+
+.box .txtbox span {
+    position: absolute;
+    inset: 0 auto auto 50%;
+    font-size: 13px;
+    height: 50%;
+    transform-origin: bottom center;
+    text-transform: uppercase;
+}
+
+#header .container {
     display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 100px;
+    justify-content: space-between;
+}
+
+#header .container .gnb ul {
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#header .container .btn i {
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#main .mainVisual {
+    position: relative;
+}
+
+#main .mainVisual figure {
+    height: 700px;
+}
+
+#main .mainVisual .slogan {
+    position: absolute;
+    inset: 50% auto auto 65%;
+    transform: translate(-50%, -50%);
+}
+
+#main .mainVisual .slogan h2 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#main .mainEye {
+    padding: 100px 0;
+    height: 100vh;
+}
+
+#main .mainEye .container {
     width: 1200px;
     margin: 0 auto;
 }
 
-#header .topBanner h1 {
-    line-height: 100px;
+#main .mainEye h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #333;
 }
 
-#header .topBanner .gnb ul {
+#main .mainEye p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+    color: #333;
+}
+
+#main .mainEye .container {
     display: flex;
-    gap: 20px;
-    line-height: 100px;
 }
 
+#main .mainEye .container figure {
+    flex: 1;
+}
+
+.mainLip .container {
+    background: url(../img/main_visual05.jpg);
+    height: 100vh;
+}
