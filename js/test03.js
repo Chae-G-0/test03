@@ -4,6 +4,12 @@ $(function () {
         autoplay: true,
         puaseOnHover: false,
     });
+
+    $('.faceSlide').slick({
+        arrows: false,
+        autoplay: true,
+        puaseOnHover: false,
+    })
 })
 
 const ROLLING_BOX = document.querySelector('.box .txtbox');

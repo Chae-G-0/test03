@@ -90,7 +90,7 @@
     text-align: center;
     font-size: 15px;
     font-weight: 300;
-    margin: 0 0 50px 0;
+    margin: 0 0 30px 0;
     color: #333;
 }
 
@@ -102,7 +102,78 @@
     flex: 1;
 }
 
-.mainLip .container {
+.lipSticky .container figure {
     background: url(../img/main_visual05.jpg);
     height: 100vh;
+}
+
+.mainLip {
+    position: relative;
+    z-index: 999;
+}
+
+.mainLip .container .inner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+
+.mainLip .container .inner .left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.mainLip .container .inner .box {
+    display: flex;
+    gap: 30px;
+}
+
+.mainLip .container .inner .box h3 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 100px 0 0 50px;
+    margin: 0 0 10px 0;
+    color: #f1f1f1;
+}
+
+.mainLip .container .inner .box p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #f1f1f1;
+    line-height: 1.4;
+    padding: 0 0 0 50px;
+}
+
+.mainLip .container .inner .item02 h3 {
+    padding: 140px 25px 0 25px;
+}
+
+.mainLip .container .inner .item02 p {
+    padding: 0 25px;
+}
+
+.mainLip .container .inner .item03 {
+    margin: 0 0 100px 0;
+}
+
+.mainFace {
+    background: #fff;
+    height: 100vh;
+    padding: 100px 0;
+}
+
+.mainFace h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 30px 0;
+}
+
+.mainFace .container {
+    width: 1200px;
+    margin: 0 auto;
 }
