@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nanum+Myeongjo&display=swap');
+
 .scroll .box {
     position: fixed;
     inset: 90% auto auto 95%;
@@ -34,7 +36,8 @@
     display: flex;
     gap: 20px;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #header .container .btn i {
@@ -63,8 +66,9 @@
 }
 
 #main .mainVisual .slogan h2 {
+    font-family: 'Libre Baskerville', serif;
     font-size: 65px;
-    font-weight: 700;
+    font-weight: 900;
     color: #fff;
 }
 
@@ -90,6 +94,7 @@
     text-align: center;
     font-size: 15px;
     font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
     margin: 0 0 30px 0;
     color: #333;
 }
@@ -109,7 +114,7 @@
 
 .mainLip {
     position: relative;
-    z-index: 999;
+    z-index: 998;
 }
 
 .mainLip .container .inner {
@@ -122,6 +127,7 @@
 .mainLip .container .inner .left h2 {
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
     color: #fff;
     text-align: center;
 }
@@ -144,7 +150,7 @@
     font-weight: 300;
     color: #f1f1f1;
     line-height: 1.4;
-    padding: 0 0 0 50px;
+    padding: 0 0 30px 50px;
 }
 
 .mainLip .container .inner .item02 h3 {
@@ -152,16 +158,24 @@
 }
 
 .mainLip .container .inner .item02 p {
-    padding: 0 25px;
+    padding: 0 25px 30px;
 }
 
 .mainLip .container .inner .item03 {
     margin: 0 0 100px 0;
 }
 
+.mainLip .container .inner a {
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    color: #fff;
+}
+
 .mainFace {
-    background: #fff;
-    height: 100vh;
+    background: #f9f9f9;
+    height: 80vh;
     padding: 100px 0;
 }
 
@@ -169,11 +183,111 @@
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
     color: #333;
     margin: 0 0 30px 0;
 }
 
 .mainFace .container {
-    width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    width: calc((100% - 1200px) / 2 + 1200px);
+    margin: 0 0 0 auto;
+}
+
+.mainFace .container .left {
+    width: 25%;
+
+}
+
+.mainFace .container .left figure {
+    padding: 120px 0 20px 0;
+}
+
+.mainFace .container .left h3 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #444;
+}
+
+.mainFace .container .left p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.3;
+    color: #444;
+    padding: 0 0 20px 0;
+}
+
+.mainFace .container .left .txtSlide .pay ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.mainFace .container .left .pay li:nth-child(1) {
+    color: #666;
+}
+
+.mainFace .container .left .pay li:nth-child(2) {
+    color: rgb(160, 51, 51);
+}
+
+.mainFace .container .left .pay li:nth-child(3) {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
+
+.mainFace .container .left .txtSlide .buy {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.mainFace .container .left .txtSlide .buy a {
+    border: 1px solid #333;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    color: #333;
+    justify-content: center;
+}
+
+.mainFace .container .right {
+    width: 75%;
+    overflow: hidden;
+    padding: 0 0 0 50px;
+}
+
+.mainFace .container .right .faceSlide {
+    width: 120%;
+}
+
+.mainFace .container .right .faceSlide figure img {
+    opacity: 0.5;
+}
+
+.mainFace .container .right .faceSlide figure.slick-current img {
+    opacity: 1;
+}
+
+.mainFace .arrow {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.mainFace .arrow i {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.mainOther {
+    padding: 100px 0;
+    background: #fff;
+    position: relative;
+    z-index: 999;
 }

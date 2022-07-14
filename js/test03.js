@@ -5,11 +5,26 @@ $(function () {
         puaseOnHover: false,
     });
 
+    $('.txtSlide').slick({
+        arrows: false,
+        puaseOnHover: false,
+    });
+
     $('.faceSlide').slick({
         arrows: false,
-        autoplay: true,
         puaseOnHover: false,
+        slidesToShow: 3,
+        asNavFor: ".txtSlide",
+    });
+
+    $('.arrow i:nth-child(1)').on('click', function () {
+        $('.faceSlide').slick('slickPrev')
     })
+
+    $('.arrow i:nth-child(2)').on('click', function () {
+        $('.faceSlide').slick('slickNext')
+    })
+
 })
 
 const ROLLING_BOX = document.querySelector('.box .txtbox');
