@@ -2,17 +2,17 @@ $(function () {
     $('.mainSlide').slick({
         arrows: false,
         autoplay: true,
-        puaseOnHover: false,
+        pauseOnHover: false,
     });
 
     $('.txtSlide').slick({
         arrows: false,
-        puaseOnHover: false,
+        pauseOnHover: false,
     });
 
     $('.faceSlide').slick({
         arrows: false,
-        puaseOnHover: false,
+        pauseOnHover: false,
         slidesToShow: 3,
         asNavFor: ".txtSlide",
         swipeToSlide: true,
