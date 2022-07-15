@@ -15,17 +15,18 @@ $(function () {
         puaseOnHover: false,
         slidesToShow: 3,
         asNavFor: ".txtSlide",
+        swipeToSlide: true,
     });
 
     $('.arrow i:nth-child(1)').on('click', function () {
         $('.faceSlide').slick('slickPrev')
-    })
+    });
 
     $('.arrow i:nth-child(2)').on('click', function () {
         $('.faceSlide').slick('slickNext')
-    })
+    });
 
-})
+});
 
 const ROLLING_BOX = document.querySelector('.box .txtbox');
 window.addEventListener('scroll', function () {
@@ -41,4 +42,4 @@ function 회전문자(word) {
         el.style.transform = 'translateX(-50%) rotate(' + idx * (360 / SPAN.length) + 'deg)'
     })
 }
-회전문자('scroll scroll scroll ');
+회전문자('scroll scroll  Good  ');

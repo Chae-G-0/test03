@@ -4,7 +4,7 @@
     position: fixed;
     inset: 90% auto auto 95%;
     transform: translate(-50%, -50%);
-    z-index: 999;
+    z-index: 1000;
 }
 
 .box .txtbox {
@@ -30,6 +30,10 @@
     margin: 0 auto;
     line-height: 100px;
     justify-content: space-between;
+}
+
+#header .container h1 {
+    font-size: 0;
 }
 
 #header .container .gnb ul {
@@ -88,6 +92,7 @@
     font-weight: 700;
     margin: 0 0 10px 0;
     color: #333;
+    letter-spacing: 0.025em;
 }
 
 #main .mainEye p {
@@ -143,6 +148,7 @@
     padding: 100px 0 0 50px;
     margin: 0 0 10px 0;
     color: #f1f1f1;
+    letter-spacing: 0.025em;
 }
 
 .mainLip .container .inner .box p {
@@ -150,7 +156,29 @@
     font-weight: 300;
     color: #f1f1f1;
     line-height: 1.4;
-    padding: 0 0 30px 50px;
+    padding: 0 0 25px 50px;
+    letter-spacing: 0.025em;
+}
+
+.mainLip .container .left .pay ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 0 40px 0;
+}
+
+.mainLip .container .left .pay li:nth-child(1) {
+    color: #ddd;
+}
+
+.mainLip .container .left .pay li:nth-child(2) {
+    color: rgb(250, 18, 18);
+}
+
+.mainLip .container .left .pay li:nth-child(3) {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
 }
 
 .mainLip .container .inner .item02 h3 {
@@ -158,7 +186,26 @@
 }
 
 .mainLip .container .inner .item02 p {
-    padding: 0 25px 30px;
+    padding: 0 25px 25px;
+}
+
+.mainLip .container .inner .item02 a {
+    margin: 0 0 0 23px;
+}
+
+.mainLip .container .inner .item01 .pay ul {
+    justify-content: flex-start;
+    padding: 0 0 0 50px;
+}
+
+.mainLip .container .inner .item02 .pay ul {
+    justify-content: flex-start;
+    padding: 0 0 0 23px;
+}
+
+.mainLip .container .inner .item03 .pay ul {
+    justify-content: flex-start;
+    padding: 0 0 0 50px;
 }
 
 .mainLip .container .inner .item03 {
@@ -171,6 +218,8 @@
     font-weight: 500;
     padding: 5px 20px;
     color: #fff;
+    margin: 0 0 0 50px;
+    letter-spacing: 0.025em;
 }
 
 .mainFace {
@@ -196,7 +245,6 @@
 
 .mainFace .container .left {
     width: 25%;
-
 }
 
 .mainFace .container .left figure {
@@ -209,6 +257,7 @@
     text-align: center;
     margin: 0 0 10px 0;
     color: #444;
+    letter-spacing: 0.025em;
 }
 
 .mainFace .container .left p {
@@ -218,6 +267,7 @@
     line-height: 1.3;
     color: #444;
     padding: 0 0 20px 0;
+    letter-spacing: 0.025em;
 }
 
 .mainFace .container .left .txtSlide .pay ul {
@@ -254,6 +304,7 @@
     padding: 5px 20px;
     color: #333;
     justify-content: center;
+    letter-spacing: 0.025em;
 }
 
 .mainFace .container .right {
@@ -282,7 +333,7 @@
 .mainFace .arrow i {
     font-size: 30px;
     font-weight: 500;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .mainOther {
@@ -301,3 +352,133 @@
     margin: 0 0 30px 0;
 }
 
+.mainOther .container {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainOther .container figure {
+    background: #f9f9f9;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.mainOther .container figure img {
+    transition: 0.5s;
+}
+
+.mainOther .container figure:hover img {
+    transform: scale(1.2);
+}
+
+.mainOther .container h3 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    letter-spacing: 0.025em;
+    margin: 0 0 10px 0;
+}
+
+.mainOther .container .content .txt .pay ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    font-size: 15px;
+}
+
+.mainOther .container .pay li:nth-child(1) {
+    color: #888;
+}
+
+.mainOther .container .pay li:nth-child(2) {
+    color: rgb(250, 18, 18);
+}
+
+.mainOther .container .pay li:nth-child(3) {
+    font-size: 17px;
+    font-weight: 500;
+    color: #444;
+}
+
+.mainFin {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background: url(../img/main_visual09.jpg) no-repeat center;
+    height: 600px;
+}
+
+.mainFin .container {
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.mainFin .container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #444;
+    margin: 0 0 10px 0;
+    line-height: 1.25;
+}
+
+#footer {
+    position: relative;
+    z-index: 999;
+    background: #333;
+}
+
+#footer .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .top {
+    border-bottom: 1px solid #ddd;
+}
+
+#footer .top .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .container h2 {
+    line-height: 100px;
+    font-size: 0;
+}
+
+#footer .container dl {
+    display: flex;
+    gap: 15px;
+    line-height: 100px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#footer .container .icon {
+    line-height: 100px;
+    color: #fff;
+}
+
+#footer .container .icon i {
+    padding: 0 5px;
+}
+
+#footer .bottom ul {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    line-height: 100px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
