@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nanum+Myeongjo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nanum+Myeongjo&display=swap");
 
 .scroll .box {
     position: fixed;
@@ -13,7 +13,6 @@
     border-radius: 50%;
     border: 1px solid #666;
 }
-
 
 .box .txtbox span {
     position: absolute;
@@ -41,7 +40,7 @@
     gap: 20px;
     font-size: 17px;
     font-weight: 700;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
 }
 
 #header .container .btn i {
@@ -70,7 +69,7 @@
 }
 
 #main .mainVisual .slogan h2 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     font-size: 60px;
     font-weight: 900;
     color: #fff;
@@ -79,7 +78,7 @@
 }
 
 #main .mainVisual .slogan p {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -89,6 +88,7 @@
 #main .mainEye {
     padding: 100px 0;
     height: 90vh;
+    color: #333;
 }
 
 #main .mainEye .container {
@@ -101,17 +101,14 @@
     font-size: 27px;
     font-weight: 700;
     margin: 0 0 10px 0;
-    color: #333;
     letter-spacing: 0.025em;
 }
 
 #main .mainEye p {
     text-align: center;
     font-size: 15px;
-    font-weight: 300;
-    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
     margin: 0 0 30px 0;
-    color: #333;
 }
 
 #main .mainEye .container {
@@ -119,7 +116,16 @@
 }
 
 #main .mainEye .container figure {
+    overflow: hidden;
     flex: 1;
+}
+
+#main .mainEye .container figure img {
+    transition: 0.5s;
+}
+
+#main .mainEye .container figure:hover img {
+    transform: scale(1.2);
 }
 
 .lipSticky .container figure {
@@ -142,7 +148,7 @@
 .mainLip .container .inner .left h2 {
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     color: #fff;
     text-align: center;
 }
@@ -242,7 +248,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     color: #333;
     margin: 0 0 30px 0;
 }
@@ -357,7 +363,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     color: #333;
     margin: 0 0 30px 0;
 }
@@ -432,11 +438,11 @@
 }
 
 .mainFin .container h2 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #444;
-    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    color: rgb(32, 25, 25);
     line-height: 1.25;
+    letter-spacing: 0.025em;
 }
 
 #footer {
